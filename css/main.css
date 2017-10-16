@@ -1,6 +1,6 @@
 html {
   background-color: #79756f;
-  font-family: Bevan;
+  font-family: Georgia, serif;
   line-height: 1.5rem;
   box-sizing: border-box;
 }
@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-  font-family: "Bevan sans-serif";
+  font-family:'Bevan'cursive;
 }
 
 body {
