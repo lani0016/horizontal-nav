@@ -16,7 +16,11 @@ header {
 }
 
 h1 {
-  font-family:'Bevan'cursive;
+  background-color: #595652;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  color: #fff;
+
 }
 
 body {
@@ -28,9 +32,9 @@ body {
   display: inline-block;
   margin: .5em 1em;
   max-width: 20em;
-  padding: 1em;
+  padding: .75em;
   background-color: #713837;
-  border: 3px solid #713837;
+  border: 8px solid #713837;
   border-radius: 10px;
   text-align: left;
 }
