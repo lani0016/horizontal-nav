@@ -1,10 +1,61 @@
 html{
-  background-color: #f2f1ed;
-  font-family:Bevan;
-  line-height: 1.5rem
+  background-color:#595652;
+  font-family: Bevan;
+  line-height: 1.5rem;
+  box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+header{
+  background-color: #79756f;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
 }
-nav
-{font-weight:bold;
-font-family: 'Patua One', cursive;
+body{
+.planets {
+background-color: #79756f;
+margin:0;
+padding:2.5em;
+list-style-type: none;
+text-align: center;
+}
+
+.planets li {
+display: inline-block;
+margin: .5em 1em;
+max-width: 20em;
+padding: 1em;
+background-color: #713837;
+border:3px solid #713837;
+border-radius: 10px;
+text-align: left;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+
+}
+
+.planets a {
+display: inline-block;
+padding: .5em .75em;
+background-color: #713837;
+border-radius: 4px;
+color: #ffffff;
+text-decoration: none;
+}
+
+.planets a:hover {
+background-color:#713837;
+color:#f33;
+}
+
+nav{
+font-weight:bold;
+font-family: Brevan;
 font-size: 1.25rem
+}
 }
